@@ -8,9 +8,9 @@ filetype plugin indent on
 syntax on
 
 " Color scheme
-"let g:gruvbox_contrast_dark="hard"
-"set background=dark
-"colorscheme gruvbox
+let g:gruvbox_contrast_dark="hard"
+set background=dark
+colorscheme gruvbox
 
 " Leader key
 let mapleader=","
@@ -23,6 +23,7 @@ set term=screen-256color
 
 " Enable Colored Column
 set colorcolumn=120
+
 " Different for gitcommit
 autocmd Filetype gitcommit set colorcolumn=72
 
@@ -33,8 +34,7 @@ set number
 set hidden
 set history=100
 
-" The time in milliseconds that is waited for a key code or mapped key
-" sequence to complete.
+" The time in milliseconds that is waited for a key code or mapped key sequence to complete.
 set ttimeoutlen=10
 
 " Allow backspacing over everything in insert mode
