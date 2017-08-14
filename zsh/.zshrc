@@ -18,10 +18,14 @@ export CLICOLOR=1
 # pure prompt needs this
 fpath+=("/usr/local/share/zsh/site-functions")
 
-# init the prompt system
+# enable prompt system
 autoload -Uz promptinit
 promptinit
 prompt pure
+
+# enable autocompletion
+autoload -Uz compinit
+compinit
 
 #
 # aliases
