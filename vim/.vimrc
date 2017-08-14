@@ -48,9 +48,9 @@ autocmd BufWritePre * :%s/\s\+$//e
 " General
 "---
 
-set tabstop=2
-set shiftwidth=2
-set expandtab       " convert tabs to spaces
+set tabstop=4
+set shiftwidth=4
+"set expandtab       " convert tabs to spaces
 set autoindent
 set hlsearch        " highlight search
 set ignorecase      " case insensistive search
