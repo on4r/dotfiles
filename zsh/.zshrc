@@ -34,7 +34,7 @@ alias la="ls -lhA"
 # exports
 #
 
-export PATH=$PATH:"/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl"
+export PATH=$PATH:"/Applications/Sublime Text.app/Contents/SharedSupport/bin/"
 
 #
 # functions
