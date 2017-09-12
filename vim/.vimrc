@@ -1,8 +1,23 @@
-" Enable Pathogen
-execute pathogen#infect()
+"---
+" Start Vundle
 
-" Detect Filetypes
+set nocompatible
+filetype off
+
+set rtp+=~/dotfiles/vim/.vim/bundle/Vundle.vim
+call vundle#begin()
+
+Plugin 'VundleVim/Vundle.vim'
+Plugin 'morhetz/gruvbox'
+Plugin 'myusuf3/numbers.vim'
+Plugin 'scrooloose/nerdtree'
+Plugin 'itchyny/lightline.vim'
+
+call vundle#end()
 filetype plugin indent on
+
+" End Vundle
+"---
 
 " Enable syntax highlighting
 syntax on
@@ -15,9 +30,6 @@ colorscheme gruvbox
 
 " Leader key
 let mapleader=","
-
-" Open vim with given size
-"set lines=35 columns=150
 
 " set default colors
 set term=screen-256color
@@ -74,7 +86,7 @@ let NERDTreeShowHidden=1
 let NERDTreeMapActivateNode='<right>'
 let NERDTreeIgnore=['\.DS_STORE', '\~$', '\.swp']
 
-" lightline.vim
+" Lightline
 set laststatus=2
 
 " Numbers
