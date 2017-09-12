@@ -36,8 +36,6 @@ set term=screen-256color
 
 " Enable Colored Column
 set colorcolumn=120
-
-" Different for gitcommit
 autocmd Filetype gitcommit set colorcolumn=72
 
 " Enable line numbering
@@ -54,7 +52,8 @@ set ttimeoutlen=10
 set backspace=indent,eol,start
 
 " Remove trailing whitespace on save
-autocmd BufWritePre * :%s/\s\+$//e
+let blacklist = ['markdown']
+autocmd BufWritePre * if index(blacklist, &ft) < 0 | :%s/\s\+$//e
 
 "---
 " General
