@@ -28,7 +28,6 @@ export CLICOLOR=1
 # enable prompt system
 autoload -Uz promptinit
 promptinit
-prompt pure
 
 # enable autocompletion
 autoload -Uz compinit
