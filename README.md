@@ -3,6 +3,7 @@
 ### Install Stow
 
 Linux: `apt-get install stow`
+
 OSX:   `brew install stow`
 
 ### Clone repo and init dotfiles
