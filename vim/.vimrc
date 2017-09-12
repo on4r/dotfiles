@@ -1,10 +1,15 @@
+" Install Vundle if it is not already installed
+if !isdirectory(expand("~/.vim/bundle/Vundle.vim"))
+	silent !git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+endif
+
 "---
 " Start Vundle
 
 set nocompatible
 filetype off
 
-set rtp+=~/dotfiles/vim/.vim/bundle/Vundle.vim
+set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
 Plugin 'VundleVim/Vundle.vim'
