@@ -1,3 +1,13 @@
+# init antigen
+source ~/dotfiles/zsh/antigen.zsh
+
+# load plugins
+antigen bundle mafredri/zsh-async
+antigen bundle sindresorhus/pure
+antigen bundle zsh-users/zsh-syntax-highlighting
+
+antigen apply
+
 # histroy
 HISTSIZE=4096
 HISTFILE=~/.zsh_history
@@ -14,9 +24,6 @@ export LESS_TERMCAP_us=$'\E[04;38;5;146m'
 
 # listings colored
 export CLICOLOR=1
-
-# pure prompt needs this
-fpath+=("/usr/local/share/zsh/site-functions")
 
 # enable prompt system
 autoload -Uz promptinit
@@ -47,9 +54,3 @@ export PATH=$PATH:"/Applications/Sublime Text.app/Contents/SharedSupport/bin/"
 function homestead() {
 	( cd ~/Homestead && vagrant $* )
 }
-
-#
-# plugins
-#
-
-source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
