@@ -50,6 +50,6 @@ export PATH=$PATH:"/Applications/Sublime Text.app/Contents/SharedSupport/bin/"
 # functions
 #
 
-function homestead() {
+homestead() {
 	( cd ~/Homestead && vagrant $* )
 }
