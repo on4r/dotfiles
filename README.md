@@ -34,6 +34,20 @@ OSX:   `brew install stow`
 * [pure](https://github.com/sindresorhus/pure)
 * [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)
 
-## Fonts & Colors
+## Bonus
 
-...
+### Programming Fonts
+
+* [Anonymus Pro](https://www.marksimonson.com/fonts/view/anonymous-pro)
+* [Fira Mono](https://github.com/mozilla/Fira)
+* [Inconsolata-g](http://leonardo-m.livejournal.com/77079.html)
+* [Source Code Pro](https://github.com/adobe-fonts/source-code-pro)
+
+### Terminal Themes
+
+* [Argonaut](https://github.com/lysyi3m/osx-terminal-themes#argonaut)
+* [Brogrammer](https://github.com/lysyi3m/osx-terminal-themes#brogrammer)
+* [Cobalt2](https://github.com/lysyi3m/osx-terminal-themes#cobalt2)
+* [Darkside](https://github.com/lysyi3m/osx-terminal-themes#darkside)
+* [DotGov](https://github.com/lysyi3m/osx-terminal-themes#dotgov)
+* [ToyChest](https://github.com/lysyi3m/osx-terminal-themes#toychest)
