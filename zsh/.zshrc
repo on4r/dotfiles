@@ -1,5 +1,5 @@
 # init antigen
-source ~/dotfiles/zsh/antigen.zsh
+source ~/.zsh/antigen.zsh
 
 # load plugins
 antigen bundle mafredri/zsh-async
@@ -39,6 +39,8 @@ compinit
 
 alias ll="ls -lh"
 alias la="ls -lhA"
+alias c="clear"
+alias gs="git status"
 
 #
 # exports
