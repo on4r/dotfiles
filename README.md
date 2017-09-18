@@ -39,8 +39,6 @@ OSX:   `brew install stow`
 ### Programming Fonts
 
 * [Anonymus Pro](https://www.marksimonson.com/fonts/view/anonymous-pro)
-* [Fira Mono](https://github.com/mozilla/Fira)
-* [Inconsolata-g](http://leonardo-m.livejournal.com/77079.html)
 * [Source Code Pro](https://github.com/adobe-fonts/source-code-pro)
 
 ### Terminal Themes
