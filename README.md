@@ -25,6 +25,7 @@ OSX:   `brew install stow`
 * [lightline](https://github.com/itchyny/lightline.vim)
 * [nerdtree](https://github.com/scrooloose/nerdtree)
 * [numbers](https://github.com/myusuf3/numbers.vim)
+* [yajs](https://github.com/othree/yajs.vim)
 
 ### zsh
 

@@ -12,6 +12,7 @@ Plugin 'morhetz/gruvbox'
 Plugin 'myusuf3/numbers.vim'
 Plugin 'scrooloose/nerdtree'
 Plugin 'itchyny/lightline.vim'
+Plugin 'othree/yajs.vim'
 
 call vundle#end()
 filetype plugin indent on
