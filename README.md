@@ -7,7 +7,7 @@ OSX:   `brew install stow`
 
 ### Clone repo and init dotfiles
 
-	cd ~ && git clone https://github.com/on4r/dotfiles.git
+	cd ~ && git clone --recursive -j1 https://github.com/on4r/dotfiles.git
 	cd dotfiles
 	stow vim && stow tmux && stow zsh
 
