@@ -15,6 +15,10 @@ OSX:   `brew install stow`
 
 	vim +PluginInstall +qall
 
+### Link sublime settings
+
+	./sublime/link_ss
+
 ## Plugins
 
 ### vim
