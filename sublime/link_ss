@@ -10,5 +10,5 @@ cd $SCRIPT_DIR
 
 for filename in *.sublime-*; do
 	echo "█▓░ Create symlink for $filename";
-	ln -sf "$SCRIPT_DIR/$filename" "$SS_PATH/$filename";
+	ln -f "$SCRIPT_DIR/$filename" "$SS_PATH/$filename";
 done
