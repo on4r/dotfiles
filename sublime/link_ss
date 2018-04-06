@@ -9,6 +9,6 @@ SS_PATH="$HOME/Library/Application Support/Sublime Text 3/Packages/User"
 cd $SCRIPT_DIR
 
 for filename in *.sublime-*; do
-	echo "█▓░ Create symlink for $filename";
+	echo "▀▄▀▄ Create symlink for $filename";
 	ln -f "$SCRIPT_DIR/$filename" "$SS_PATH/$filename";
 done
