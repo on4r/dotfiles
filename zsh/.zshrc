@@ -56,3 +56,7 @@ export PATH=$PATH:~/scripts
 homestead() {
 	( cd ~/Homestead && vagrant $* )
 }
+
+findh() {
+	history 256 | grep $1
+}
