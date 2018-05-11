@@ -48,6 +48,7 @@ alias gs="git status"
 
 export PATH=$PATH:"/Applications/Sublime Text.app/Contents/SharedSupport/bin/"
 export PATH=$PATH:~/scripts
+export PATH=$PATH:/usr/local/sbin
 
 #
 # functions
@@ -59,4 +60,8 @@ homestead() {
 
 findh() {
 	history 256 | grep $1
+}
+
+cdl() {
+	cd $* && ll
 }
