@@ -1,0 +1,16 @@
+# This is Git's per-user configuration file.
+[user]
+# Please adapt and uncomment the following lines:
+	name = on4r
+	email = on4r@protonmail.com
+[core]
+	editor = /usr/bin/vim
+	ignorecase = false
+[branch]
+	autosetuprebase = always
+[alias]
+	lg = log --color --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+	stat = status -sb
+	last = log -1 --stat
+	unstage = reset HEAD --
+	cached = diff --cached

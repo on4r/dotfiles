@@ -41,6 +41,7 @@ alias ll="ls -lh"
 alias la="ls -lhA"
 alias c="clear"
 alias gs="git status"
+alias gl="git lg"
 
 #
 # exports
@@ -49,6 +50,8 @@ alias gs="git status"
 export PATH=$PATH:"/Applications/Sublime Text.app/Contents/SharedSupport/bin/"
 export PATH=$PATH:~/scripts
 export PATH=$PATH:/usr/local/sbin
+export PATH=$PATH:~/.composer/vendor/bin
+export PATH=$PATH:/usr/local/opt/
 
 #
 # functions
@@ -64,4 +67,8 @@ findh() {
 
 cdl() {
 	cd $* && ll
+}
+
+smoke() {
+	echo "(_____(_____________(((() ~~~~~"
 }
