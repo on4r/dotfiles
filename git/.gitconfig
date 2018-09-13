@@ -6,6 +6,7 @@
 [core]
 	editor = /usr/bin/vim
 	ignorecase = false
+	filemode = false
 [branch]
 	autosetuprebase = always
 [alias]
