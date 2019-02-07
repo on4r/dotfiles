@@ -7,6 +7,7 @@
 	editor = /usr/bin/vim
 	ignorecase = false
 	filemode = false
+	excludesfile = ~/.gitignore_global
 [branch]
 	autosetuprebase = always
 [alias]
