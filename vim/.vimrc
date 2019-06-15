@@ -98,3 +98,7 @@ set laststatus=2
 
 " Numbers
 " nothing here yet
+
+" fix weird OSX crontab shizzl
+" https://superuser.com/questions/359580/error-adding-cronjobs-in-mac-os-x-lion
+autocmd filetype crontab setlocal nobackup nowritebackup
