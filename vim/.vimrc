@@ -63,6 +63,9 @@ cmap w!! w !sudo tee > /dev/null %
 " Active vim version needs to have +clipboard enabled
 set clipboard=unnamed
 
+" ESC after search clears highlights
+nnoremap <esc> :noh<return><esc>
+
 "---
 " General
 "---
