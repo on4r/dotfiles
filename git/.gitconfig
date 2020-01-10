@@ -3,6 +3,9 @@
 # Please adapt and uncomment the following lines:
 	name = on4r
 	email = on4r@protonmail.com
+	signingkey = 708AC167CA0D30CA
+[commit]
+	gpgsign = true
 [core]
 	editor = /usr/bin/vim
 	ignorecase = false

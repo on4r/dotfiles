@@ -8,7 +8,7 @@ antigen bundle zsh-users/zsh-syntax-highlighting
 
 antigen apply
 
-# histroy
+# history
 HISTSIZE=4096
 HISTFILE=~/.zsh_history
 SAVEHIST=4096
@@ -32,6 +32,10 @@ promptinit
 # enable autocompletion
 autoload -Uz compinit
 compinit
+
+# gpg
+GPG_TTY=$(tty)
+export GPG_TTY
 
 #
 # aliases
