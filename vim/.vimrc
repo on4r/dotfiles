@@ -37,7 +37,6 @@ set term=screen-256color
 
 " Enable Colored Column
 set colorcolumn=120
-autocmd Filetype gitcommit set colorcolumn=72
 
 " Enable line numbering
 set number
@@ -86,6 +85,16 @@ set visualbell      " don't beep
 set noerrorbells    " don't beep
 
 "---
+" Filetype specifiy settings
+"---
+
+autocmd filetype markdown setlocal expandtab
+autocmd filetype gitcommit setlocal colorcolumn=72
+" fix weird OSX crontab shizzl
+" https://superuser.com/questions/359580/error-adding-cronjobs-in-mac-os-x-lion
+autocmd filetype crontab setlocal nobackup nowritebackup
+
+"---
 " Plugin Configurations
 "---
 
@@ -102,6 +111,3 @@ set laststatus=2
 " Numbers
 " nothing here yet
 
-" fix weird OSX crontab shizzl
-" https://superuser.com/questions/359580/error-adding-cronjobs-in-mac-os-x-lion
-autocmd filetype crontab setlocal nobackup nowritebackup
