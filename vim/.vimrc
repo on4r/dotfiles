@@ -14,6 +14,8 @@ Plugin 'scrooloose/nerdtree'
 Plugin 'itchyny/lightline.vim'
 Plugin 'othree/yajs.vim'
 Plugin 'spf13/vim-autoclose'
+Plugin 'editorconfig/editorconfig-vim'
+Plugin 'ctrlpvim/ctrlp.vim'
 
 call vundle#end()
 filetype plugin indent on
