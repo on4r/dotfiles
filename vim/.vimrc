@@ -69,6 +69,11 @@ set clipboard=unnamed
 " ESC after search clears highlights
 nnoremap <esc> :noh<return><esc>
 
+" Save swp files to /tmp instead of current location
+set backupdir=/tmp//
+set directory=/tmp//
+set undodir=/tmp//
+
 "---
 " General
 "---
