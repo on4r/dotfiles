@@ -74,6 +74,12 @@ set backupdir=/tmp//
 set directory=/tmp//
 set undodir=/tmp//
 
+" Easily move lines and apply indentation afterwards
+nnoremap <S-j> :m .+1<CR>==
+nnoremap <S-k> :m .-2<CR>==
+vnoremap <S-j> :m '>+1<CR>gv=gv
+vnoremap <S-k> :m '<-2<CR>gv=gv
+
 "---
 " General
 "---
