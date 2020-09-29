@@ -123,6 +123,5 @@ let NERDTreeIgnore=['\.DS_STORE', '\~$', '\.swp']
 " Lightline
 set laststatus=2
 
-" Numbers
-" nothing here yet
-
+" Ctrlp
+let g:ctrlp_custom_ignore = 'node_modules\|DS_Store\|git\|dist'
