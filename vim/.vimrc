@@ -98,6 +98,8 @@ set smartindent
 set title           " display buffer title on topbar
 set visualbell      " don't beep
 set noerrorbells    " don't beep
+set foldmethod=indent
+set nofoldenable    " open files unfolded
 
 "---
 " Filetype specifiy settings
