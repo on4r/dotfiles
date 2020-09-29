@@ -15,6 +15,8 @@ Plugin 'itchyny/lightline.vim'
 Plugin 'othree/yajs.vim'
 Plugin 'editorconfig/editorconfig-vim'
 Plugin 'ctrlpvim/ctrlp.vim'
+Plugin 'tranvansang/vim-close-pair'
+Plugin 'alvan/vim-closetag'
 
 call vundle#end()
 filetype plugin indent on
