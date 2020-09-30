@@ -11,9 +11,10 @@ OSX:   `brew install stow`
     cd dotfiles
     stow vim && stow tmux && stow zsh && stow git
 
-### Install vim plugins
+### Install/Update vim plugins
 
     vim +PluginInstall +qall
+    vim +PluginUpdate +qall
 
 ## Plugins
 
@@ -28,6 +29,8 @@ OSX:   `brew install stow`
 * [yajs](https://github.com/othree/yajs.vim)
 * [editorconfig](https://github.com/editorconfig/editorconfig-vim)
 * [ctrlp](https://github.com/ctrlpvim/ctrlp.vim)
+* [close-pair](https://github.com/tranvansang/vim-close-pair)
+* [closetag](https://github.com/alvan/vim-closetag)
 
 ### zsh
 
