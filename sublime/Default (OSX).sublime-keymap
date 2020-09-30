@@ -1,5 +1,0 @@
-[
-	{ "keys": ["super+shift+l"], "command": "reindent" },
-	{ "keys": ["super+shift+j"], "command": "unindent" },
-	{ "keys": ["super+shift+k"], "command": "indent" }
-]
