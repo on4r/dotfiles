@@ -61,10 +61,6 @@ export PATH=$PATH:/usr/local/opt/
 # functions
 #
 
-homestead() {
-	( cd ~/Homestead && vagrant $* )
-}
-
 findh() {
 	history 256 | grep $1
 }
