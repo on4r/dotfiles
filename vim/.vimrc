@@ -108,12 +108,12 @@ set nofoldenable    " open files unfolded
 " Filetype specifiy settings
 "---
 
-autocmd filetype text setlocal wrap linebreak
-autocmd filetype markdown setlocal expandtab wrap linebreak
-autocmd filetype gitcommit setlocal colorcolumn=72
+autocmd FileType text setlocal wrap linebreak
+autocmd FileType markdown setlocal expandtab wrap linebreak
+autocmd FileType gitcommit setlocal colorcolumn=72
 " fix weird OSX crontab shizzl
 " https://superuser.com/questions/359580/error-adding-cronjobs-in-mac-os-x-lion
-autocmd filetype crontab setlocal nobackup nowritebackup
+autocmd FileType crontab setlocal nobackup nowritebackup
 
 "---
 " Plugin Configurations
