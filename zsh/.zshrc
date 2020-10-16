@@ -72,3 +72,11 @@ findh() {
 cdl() {
 	cd $* && ll
 }
+
+cheatsheet() {
+	if (( $# == 0 )); then
+		vi ~/code/cheatsheet/README.md;
+	else
+		vi ~/code/cheatsheet/README.md -c ":/$1"
+	fi
+}
