@@ -33,11 +33,8 @@ export EDITOR=vim
 export VISUAL=vim
 
 # path
-export PATH=$PATH:"/Applications/Sublime Text.app/Contents/SharedSupport/bin/"
-export PATH=$PATH:~/scripts
 export PATH=$PATH:/usr/local/sbin
-export PATH=$PATH:~/.composer/vendor/bin
-export PATH=$PATH:/usr/local/opt/
+export PATH=$PATH:~/scripts
 
 # colored man pages
 export LESS_TERMCAP_mb=$'\E[01;31m'
