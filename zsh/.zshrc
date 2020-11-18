@@ -2,8 +2,6 @@
 source ~/.zsh/antigen.zsh
 
 # load plugins
-antigen bundle mafredri/zsh-async
-antigen bundle sindresorhus/pure
 antigen bundle zsh-users/zsh-syntax-highlighting
 
 antigen apply
@@ -12,10 +10,6 @@ antigen apply
 HISTSIZE=4096
 HISTFILE=~/.zsh_history
 SAVEHIST=4096
-
-# enable prompt system
-autoload -Uz promptinit
-promptinit
 
 # enable autocompletion
 autoload -Uz compinit
@@ -80,3 +74,6 @@ cheatsheet() {
 		vi ~/code/cheatsheet/README.md -c ":/$1"
 	fi
 }
+
+# load starship prompt
+eval "$(starship init zsh)"

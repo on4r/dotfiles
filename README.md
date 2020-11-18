@@ -3,7 +3,12 @@
 ### Install Stow
 
 Linux: `apt-get install stow`  
-OSX:   `brew install stow`
+MacOS: `brew install stow`
+
+### Install Starship prompt
+
+Linux: `curl -fsSL https://starship.rs/install.sh | bash`
+MacOS: `brew install starship`
 
 ### Clone repo and init dotfiles
 
@@ -36,8 +41,6 @@ OSX:   `brew install stow`
 
 > managed via [Antigen](https://github.com/zsh-users/antigen)
 
-* [zsh-async](https://github.com/mafredri/zsh-async)
-* [pure](https://github.com/sindresorhus/pure)
 * [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)
 
 ## Bonus
