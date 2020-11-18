@@ -83,6 +83,9 @@ vnoremap <S-k> :m '<-2<CR>gv
 " Toggle whitespace
 nnoremap " :set list!<CR>
 
+" Info about commands and selection
+set showcmd
+
 "---
 " General
 "---
